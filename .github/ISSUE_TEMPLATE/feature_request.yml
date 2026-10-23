@@ -1,0 +1,10 @@
+name: Feature request
+description: Suggest a focused improvement.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would this help you do?
+      description: Describe your workflow and the current limitation.
+    validations:
+      required: true

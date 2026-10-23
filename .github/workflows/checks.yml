@@ -1,0 +1,27 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  engine:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python3 -m unittest discover -s tests -v
+  native:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile both Mac architectures
+        run: |
+          swiftc -swift-version 5 -target arm64-apple-macos13.0 app/main.swift -framework Cocoa -o /tmp/carddock-arm64
+          swiftc -swift-version 5 -target x86_64-apple-macos13.0 app/main.swift -framework Cocoa -o /tmp/carddock-intel

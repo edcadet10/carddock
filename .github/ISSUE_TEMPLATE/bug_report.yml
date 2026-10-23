@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible import or installation problem.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include expected behavior and steps to reproduce using disposable files.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: CardDock version, macOS version, Apple Silicon or Intel, card/destination filesystem
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted activity log
+      description: Remove personal paths. Do not attach private photographs.
+      render: text

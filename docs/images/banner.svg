@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">CardDock</title><desc id="desc">Bring your photos home. A native, offline photo importer for Mac.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f5f9ff"/><stop offset="1" stop-color="#e7effb"/></linearGradient><linearGradient id="blue" x2="0" y2="1"><stop stop-color="#3ba5ff"/><stop offset="1" stop-color="#0863dc"/></linearGradient></defs>
+<rect width="1200" height="320" rx="26" fill="url(#bg)"/>
+<circle cx="1130" cy="25" r="210" fill="#fff" opacity=".4"/><circle cx="1120" cy="325" r="180" fill="#d3e6ff" opacity=".6"/>
+<rect x="72" y="84" width="148" height="148" rx="34" fill="#102c56" opacity=".07" transform="translate(0 7)"/>
+<rect x="72" y="84" width="148" height="148" rx="34" fill="url(#blue)"/>
+<path d="M126 118h43a8 8 0 0 1 8 8v69a8 8 0 0 1-8 8h-46a8 8 0 0 1-8-8v-61z" fill="#fff"/>
+<g fill="#197fe9"><rect x="129" y="129" width="6" height="17" rx="2"/><rect x="141" y="129" width="6" height="17" rx="2"/><rect x="153" y="129" width="6" height="17" rx="2"/><rect x="165" y="129" width="5" height="17" rx="2"/></g>
+<text x="260" y="116" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#52708d">SMALL APP. CAREFUL COPIES.</text>
+<text x="257" y="183" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-3" fill="#142338">CardDock</text>
+<text x="260" y="222" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="22" fill="#52657c">Bring your photos home.</text>
+<g font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" fill="#446484"><text x="927" y="130">NATIVE macOS</text><text x="927" y="162">VERIFIED ORIGINALS</text><text x="927" y="194">FREE &amp; OPEN SOURCE</text></g>
+</svg>

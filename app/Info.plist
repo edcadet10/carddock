@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>io.github.edcadet10.carddock</string>
+<key>CFBundleName</key><string>CardDock</string>
+<key>CFBundleDisplayName</key><string>CardDock</string>
+<key>CFBundleExecutable</key><string>CardDock</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.1.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>LSApplicationCategoryType</key><string>public.app-category.photography</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>NSHumanReadableCopyright</key><string>Copyright © 2026 CardDock contributors. MIT License.</string>
+<key>NSRemovableVolumesUsageDescription</key><string>CardDock reads the cards and drives you select to copy and verify your photos. Originals are removed only after you explicitly confirm deletion.</string>
+<key>NSDocumentsFolderUsageDescription</key><string>CardDock accesses this folder only when you choose it as a source or destination.</string>
+<key>NSDownloadsFolderUsageDescription</key><string>CardDock accesses this folder only when you choose it as a source or destination.</string>
+<key>NSDesktopFolderUsageDescription</key><string>CardDock accesses this folder only when you choose it as a source or destination.</string>
+</dict></plist>
